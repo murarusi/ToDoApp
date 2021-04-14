@@ -1,0 +1,41 @@
+<html>
+<head>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+<div id="toDoBox">
+    <div id="myDIV" class="header">
+        <h2>My To Do List</h2>
+        <input type="text" id="toDoInput" placeholder="Title...">
+        <span onclick="addToDoListElement('toDoInput', 'toDoUl')" class="addBtn">Add</span>
+    </div>
+
+    <ul id="toDoUl">
+        <li>what</li>
+        <li>to</li>
+        <li>insert</li>
+        <li>here</li>
+        <li>really</li>
+        <li>idk</li>
+    </ul>
+</div>
+<div id="notToDoBox">
+    <div class="header">
+        <h2>My Not To Do List</h2>
+        <input type="text" id="notToDoInput" placeholder="Title...">
+        <span onclick="addToDoListElement('notToDoInput', 'notToDoUl')" class="addBtn">Add</span>
+    </div>
+
+    <ul id="notToDoUl" >
+        <li>what</li>
+        <li>to</li>
+        <li>insert</li>
+        <li>here</li>
+        <li>really</li>
+        <li>idk</li>
+    </ul>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>
